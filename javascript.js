@@ -78,18 +78,18 @@ function rpsGame() {
         } else {
             tiesGame += 1
         }
-        console.log("Wins " + winsGame)
-        console.log("Losses " + loseGame)
-        console.log("Ties " + tiesGame)
     }
 
     if (winsGame > loseGame) {
-        console.log(`You win with a score of ${winsGame} to ${loseGame}`)
+        alert(`You win with a score of ${winsGame} to ${loseGame}`)
     } else if (loseGame > winsGame) {
-        console.log(`Computer wins with a score of ${loseGame} to ${winsGame}`)
+        alert(`Computer wins with a score of ${loseGame} to ${winsGame}`)
     } else {
-        console.log(`It's a tie with ${winsGame} wins, ${loseGame} losses and ${tiesGame} ties`)
+        alert(`It's a tie with ${winsGame} wins, ${loseGame} losses and ${tiesGame} ties`)
     }
+    console.log("Wins " + winsGame)
+    console.log("Losses " + loseGame)
+    console.log("Ties " + tiesGame)
 }
 
 rpsGame()

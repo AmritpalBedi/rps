@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    font-size: large;
+}
+
+.outcome {
+    font-size: 50px;
+    margin-bottom: 0;
+}
